@@ -42,7 +42,6 @@ public class PracticeFormTests {
 
 
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-        $(".table-responsive").shouldHave(text("Alex Egorov"), text("alex@egorov.com"), text("Male"), text("1234567890"),
-                text("16 September,2000"), text("Computer Science"), text("Sports"), text("1.jpg"), text("Address"), text("Haryana Karnal"));
+        $(".table-responsive").shouldHave(text("Alex Egorov"), text("alex@egorov.com"), text("Male"), text("1234567890"), text("16 September,2000"), text("Computer Science"), text("Sports"), text("1.jpg"), text("Address"), text("Haryana Karnal"));
     }
 }
